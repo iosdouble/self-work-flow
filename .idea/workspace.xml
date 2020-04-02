@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ccde7073-cb38-4246-9c0d-5d00df1deeb7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/JdbcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/ObjectMapRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/QueryBulider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/QueryParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/QueryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/rest/RestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/rest/ServiceUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/constant/CoreConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/AuthErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ConflictException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ExceptionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/IllegalArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ObjectNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/model/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/model/ErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/model/ObjectMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/resource/BaseResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/resource/PageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/utils/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-module/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/FlowApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/RestResponseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/cmd/DeployModelCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/cmd/SaveModelEditorCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/cmd/UpdateModelKeyCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/config/FlowableEngineConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/config/FlowableIdmConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/constant/ErrorConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/constant/TableConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/identity/AiaGroupEntityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/identity/AiaUserEntityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/HistoricTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/TaskDetailResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/resource/BaseTaskResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/resource/TaskResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/BooleanRestVariableConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/DateRestVariableConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/DoubleRestVariableConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/IntegerRestVariableConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/ListRestVariableConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/LongRestVariableConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/RestVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/RestVariableConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/ShortRestVariableConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/StringRestVariableConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/resources/application-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/resources/messages_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow-service/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support-workflow.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/flow-service/target/" />
+    <ignored path="$PROJECT_DIR$/common-module/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ApplicationConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/config/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1420#1421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestTemplateConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/config/RestTemplateConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125">
+              <caret line="54" column="84" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-module/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="76" column="60" lean-forward="true" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/resource/TaskResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="49" column="66" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTaskResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/resource/BaseTaskResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoryService.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$M2_HOME$/org/flowable/flowable-engine/6.3.0/flowable-engine-6.3.0.jar!/org/flowable/engine/HistoryService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoryServiceImpl.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$M2_HOME$/org/flowable/flowable-engine/6.3.0/flowable-engine-6.3.0.jar!/org/flowable/engine/impl/HistoryServiceImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="47" column="48" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestResponseFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/RestResponseFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="55" column="63" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-service.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flow-service/src/main/resources/application-service.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceUrl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/rest/ServiceUrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serviceUrl</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../Elasticsearch/elasticsearch" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Spring5.0/spring-framework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../SpringCloud/eureka/eureka" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../SpringCloud/ribbon/ribbon" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../SpringResource/spring-framework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Spring/spring-framework-5.1.3.RELEASE" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/config/FlowableEngineConfig.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/config/FlowableIdmConfig.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/identity/AiaGroupEntityManager.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/identity/AiaUserEntityManager.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/cmd/DeployModelCmd.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/cmd/SaveModelEditorCmd.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/cmd/UpdateModelKeyCmd.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/constant/ErrorConstant.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/constant/TableConstant.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/resource/BaseTaskResource.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/model/ErrorInfo.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/AuthErrorException.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/BaseException.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ObjectNotFoundException.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ForbiddenException.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ConflictException.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/IllegalArgumentException.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/constant/CoreConstant.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ExceptionFactory.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/utils/MoneyUtils.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/utils/DateUtils.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/resource/BaseResource.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/resource/PageResponse.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/model/ObjectMap.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/utils/ObjectUtils.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/TaskDetailResponse.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/HistoricTaskResponse.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/RestVariableConverter.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/BooleanRestVariableConverter.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/RestVariable.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/DateRestVariableConverter.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/DoubleRestVariableConverter.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/IntegerRestVariableConverter.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/ListRestVariableConverter.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/LongRestVariableConverter.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/ShortRestVariableConverter.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/StringRestVariableConverter.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/RestResponseFactory.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/resource/TaskResource.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/rest/ServiceUrl.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/QueryBulider.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/QueryType.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/QueryParam.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/ObjectMapRowMapper.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/JdbcClient.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/model/Authentication.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/rest/RestClient.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/config/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/config/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/common-module/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$M2_HOME$" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../Maven/env/java/apache-maven-3.3.9/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="common-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nh" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="veriable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-work-flow" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.flowable:flowable-spring-boot-autoconfigure:6.3.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.flowable:flowable-spring-boot-autoconfigure:6.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="flowable-spring-boot-autoconfigure-6.3.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.flowable:flowable-spring-boot-autoconfigure:6.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="flowable-spring-boot-autoconfigure-6.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.flowable:flowable-spring-boot-autoconfigure:6.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="flowable-spring-boot-autoconfigure-6.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="flowable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.flowable:flowable-spring-boot-autoconfigure:6.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="flowable-spring-boot-autoconfigure-6.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="flowable" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="support-workflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.flowable:flowable-spring-boot-autoconfigure:6.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="flowable-spring-boot-autoconfigure-6.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="flowable" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nh.support.resource" />
+      <recent name="com.nh.support.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common-module/src/main/resources" />
+      <recent name="$PROJECT_DIR$/common-module/src/main/java/com/nh/support/utils" />
+      <recent name="$PROJECT_DIR$/flow-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FlowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flow-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nh.support.FlowApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ccde7073-cb38-4246-9c0d-5d00df1deeb7" name="Default" comment="" />
+      <created>1585820062127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585820062127</updated>
+      <workItem from="1585820066889" duration="5165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5165000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32967034" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32923076" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46769232" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Sequence" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Sequence" order="1" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" id="BPMNPalette" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32967034" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.22222222" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/config/FlowableEngineConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/config/FlowableIdmConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="38" column="80" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/resources/messages_zh_CN.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/FlowApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/AuthErrorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/BaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ObjectNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ConflictException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/IllegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/constant/CoreConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/utils/ObjectUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2859">
+          <caret line="223" column="28" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#997#1026#0" expanded="true" />
+            <element signature="e#5770#5800#0" expanded="true" />
+            <element signature="e#6060#6090#0" expanded="true" />
+            <element signature="e#6440#6470#0" expanded="true" />
+            <element signature="e#6824#6853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/utils/MoneyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/resource/PageResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/resource/BaseResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1950#1979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/model/ObjectMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2169#2170#0" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/model/ErrorInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/TaskDetailResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/HistoricTaskResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/RestVariableConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/RestVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/BooleanRestVariableConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/DateRestVariableConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/DoubleRestVariableConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/IntegerRestVariableConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/ListRestVariableConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/LongRestVariableConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/ShortRestVariableConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/veriable/StringRestVariableConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ForbiddenException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/exception/ExceptionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/QueryBulider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="533" column="5" selection-start-line="533" selection-start-column="5" selection-end-line="533" selection-end-column="5" />
+          <folding>
+            <element signature="e#3028#3072#0" expanded="true" />
+            <element signature="e#11077#11107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/QueryType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/QueryParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1640#1670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/ObjectMapRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/jdbc/JdbcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/model/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/rest/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/config/RestTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="54" column="84" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/client/rest/ServiceUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/resources/application-service.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/nh/support/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="76" column="60" lean-forward="true" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/RestResponseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="55" column="63" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/resource/TaskResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="49" column="66" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flow-service/src/main/java/com/nh/support/rest/task/resource/BaseTaskResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$M2_HOME$/org/flowable/flowable-engine/6.3.0/flowable-engine-6.3.0.jar!/org/flowable/engine/HistoryService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$M2_HOME$/org/flowable/flowable-engine/6.3.0/flowable-engine-6.3.0.jar!/org/flowable/engine/impl/HistoryServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>common-module</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
